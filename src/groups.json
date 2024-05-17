@@ -49,5 +49,11 @@
   },
   "18": {
     "name": "User generated content"
+  },
+  "100":{
+    "name": "Administration"
+  },
+  "101":{
+    "name": "Virtualization"
   }
 }

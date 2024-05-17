@@ -770,5 +770,13 @@
     ],
     "name": "Fundraising & donations",
     "priority": 9
-  }
+  },
+  "1000": {
+    "groups": [
+      100,
+      101
+    ],
+   "name": "Virtualization",
+   "priority": 9
+ }
 }

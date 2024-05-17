@@ -1,4 +1,25 @@
 {
+"VMWareVSphere":{
+  "name": "VMware vSphere",
+  "slug": "vmware-vsphere",
+  "description": "VMware vSphere Client is a web application for managing VMware vSphere environments.",
+  "website": "https://www.vmware.com",
+  "cats": [ 1000 ],
+  "html": [
+    "<body ng-app=\"esxUiApp\" class=\"base-app-style\">",
+    "<script src=\"bower_components/requirejs/require.js\" data-main=\"scripts/main\"></script>",
+    "<script src=\"./thirdparty/vspherejs/index.js\"></script>"
+  ],
+  "scripts": [
+    "vspherejs/index.js",
+    "esxUiApp"
+  ],
+  "css": [
+    "vui-bootstrap.min.css",
+    "vfeed-custom/vfeed.css"
+  ],
+  "icon": "vmware.png"
+},  
   "VAPTCHA": {
     "cats": [
       16
