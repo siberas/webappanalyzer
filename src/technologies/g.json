@@ -808,8 +808,12 @@
     "description": "GitLab is a web-based DevOps lifecycle tool that provides a Git-repository manager providing wiki, issue-tracking and continuous integration and deployment pipeline features, using an open-source license.",
     "html": [
       "<meta content=\"https?://[^/]+/assets/gitlab_logo-",
+      "<meta content=\"GitLab Community Edition\" property=\"og:description\">",
       "<header class=\"navbar navbar-fixed-top navbar-gitlab with-horizontal-nav\">"
     ],
+    "headers": {
+      "gitlab-meta": ""
+    },
     "icon": "GitLab.svg",
     "implies": [
       "Ruby on Rails",

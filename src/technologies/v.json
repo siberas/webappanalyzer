@@ -1,17 +1,14 @@
 {
-"VMWareVSphere":{
-  "name": "VMware vSphere",
-  "slug": "vmware-vsphere",
-  "description": "VMware vSphere Client is a web application for managing VMware vSphere environments.",
+"VMWare ESXi":{
+  "name": "VMware ESXi",
+  "slug": "vmware-esxi-client",
+  "description": "VMware ESXi Client is a web application for managing VMware ESXi environments.",
   "website": "https://www.vmware.com",
   "cats": [ 1000 ],
   "html": [
-    "<body ng-app=\"esxUiApp\" class=\"base-app-style\">",
-    "<script src=\"bower_components/requirejs/require.js\" data-main=\"scripts/main\"></script>",
-    "<script src=\"./thirdparty/vspherejs/index.js\"></script>"
+    "<body ng-app=\"esxUiApp\""
   ],
   "scripts": [
-    "vspherejs/index.js",
     "esxUiApp"
   ],
   "css": [
@@ -19,7 +16,21 @@
     "vfeed-custom/vfeed.css"
   ],
   "icon": "vmware.png"
-},  
+},
+  "VMWare VSphere":{
+    "name": "VMware VSphere",
+    "slug": "vmware-vsphere-client",
+    "description": "VMware VSphere Client is a web application for managing VMware vSphere environments.",
+    "website": "https://www.vmware.com",
+    "cats": [ 1000 ],
+    "html": [
+      "<a href=\"/vsphere-client/\">",
+      "/VMware vSphere/([\\d\\.]*)\\;version:\\1\"",
+      "/titleVmware.*{,100}vSphere/"
+
+    ],
+    "icon": "vmware.png"
+  },
   "VAPTCHA": {
     "cats": [
       16
