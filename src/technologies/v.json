@@ -1,6 +1,7 @@
 {
 "VMWare ESXi":{
   "name": "VMware ESXi",
+  "cpe":"cpe:2.3:o:vmware:esxi:*:*:*:*:*:*:*:*",
   "slug": "vmware-esxi-client",
   "description": "VMware ESXi Client is a web application for managing VMware ESXi environments.",
   "website": "https://www.vmware.com",
@@ -18,6 +19,7 @@
   "icon": "vmware.png"
 },
   "VMWare VSphere":{
+    "cpe": "cpe:2.3:a:vmware:vcenter_server:*:*:*:*:*:*:*:*",
     "name": "VMware VSphere",
     "slug": "vmware-vsphere-client",
     "description": "VMware VSphere Client is a web application for managing VMware vSphere environments.",
