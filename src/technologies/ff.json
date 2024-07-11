@@ -1,0 +1,18 @@
+{
+  "F5 BigIP Configuration Utility": {
+    "cats": [
+      64
+    ],
+    "cookies": {
+      "F5-Login-Page": ""
+    },
+    "dom": "img[src*='/tmui/login/images/logo_f5.png']",
+    "cpe": "cpe:2.3:a:f5:big-ip:*:*:*:*:*:*:*:*",
+    "description": "F5's BIG-IP is a family of products covering software and hardware designed around application availability, access control, and security solutions.",
+    "headers": {
+      "F5-Login-Page": ".*"
+    },
+    "icon": "F5.png",
+    "website": "https://www.f5.com/products/big-ip-services"
+  }
+}
