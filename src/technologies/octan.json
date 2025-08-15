@@ -1,0 +1,71 @@
+{
+  "3CX Management Console": {
+    "cats": [
+      1002
+    ],
+    "dom": {
+      "head > title": {
+        "text": "3CX Phone System Management Console"
+      }
+    },
+    "cpe": "cpe:2.3:a:3cx:3cx:*:*:*:*:*:*:*:*",
+    "description": "PBX Vendor.",
+    "icon": "3cx.de.png",
+    "website": "https://www.3cx.de"
+  },
+  "SINEMA Remote Connect": {
+    "cats": [
+      1002
+    ],
+    "dom": {
+      "head > title": {
+        "text": "SINEMA Remote Connect"
+      }
+    },
+    "cpe": "cpe:2.3:a:siemens:sinema_remote_connect_server:*:*:*:*:*:*:*:*",
+    "description": "Fernwartungs Software für Siemens",
+    "icon": "siemens.png",
+    "website": "https://www.siemens.com/de/de/produkte/automatisierung/industrielle-kommunikation/industrial-remote-communication/remote-networks/sinema-remote-connect-fernzugriff-fernwartung.html"
+  },
+  "MB Connect": {
+    "cats": [
+      1002
+    ],
+    "dom": "meta[name=\"keywords\"][content=\"mbCONNECT24\"]",
+    "cpe": "cpe:2.3:a:siemens:sinema_remote_connect_server:*:*:*:*:*:*:*:*",
+    "description": "Fernwartungs Software von MB Connect Line",
+    "icon": "mbconnect.png",
+    "website": "https://mbconnectline.com/"
+  },
+  "Symfony__1": {
+    "cats": [
+      18
+    ],
+    "cpe": "cpe:2.3:a:sensiolabs:symfony:*:*:*:*:*:*:*:*",
+    "description": "Symfony is a PHP web application framework and a set of reusable PHP components/libraries.",
+    "dom": {
+      "head > title": {
+        "text": "Symfony"
+      }
+    },
+    "html": "Symfony <span class=\"version\">([\\d\\.]+)</span>\\;version:\\1",
+    "icon": "Symfony.svg",
+    "implies": "PHP",
+    "website": "https://symfony.com"
+  },
+  "RoundCube1": {
+    "cats": [
+      30
+    ],
+    "cpe": "cpe:2.3:a:roundcube:webmail:*:*:*:*:*:*:*:*",
+    "description": "RoundCube Webmail Server written in PHP",
+    "dom": {
+      "head > title": {
+        "text": "Webmail"
+      }
+    },
+    "icon": "roundcube.png",
+    "implies": "PHP",
+    "website": "https://roundcube.net"
+  }
+}

@@ -1,0 +1,18 @@
+{
+"Apache Tomcat (Default Page)": {
+    "cats": [
+      22
+    ],
+    "cpe": "cpe:2.3:a:apache:tomcat:*:*:*:*:*:*:*:*",
+    "description": "Apache Tomcat is an open-source implementation of the Java Servlet, JavaServer Pages, Java Expression Language and WebSocket technologies.",
+    "dom": {
+      "head > title": {
+        "text": "Apache Tomcat\\/?([\\d.]+)?\\;version:\\1"
+      }
+    },
+    "icon": "Apache Tomcat.svg",
+    "implies": "Java",
+    "oss": true,
+    "website": "https://tomcat.apache.org"
+  }
+}

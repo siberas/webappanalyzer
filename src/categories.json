@@ -778,5 +778,19 @@
     ],
    "name": "Virtualization",
    "priority": 9
- }
+ },
+  "1001": {
+    "groups": [
+      100
+    ],
+    "name": "Remote Access",
+    "priority": 9
+  },
+  "1002": {
+    "groups": [
+      100
+    ],
+    "name": "Management Console",
+    "priority": 9
+  }
 }
